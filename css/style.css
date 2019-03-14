@@ -271,19 +271,19 @@ footer {
    width: 80px;
 }
 
-   .button:hover, .addtocartbutton:focus {
-       background-color: #512c0a;
-       -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
-       -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
-       box-shadow: 0 0 1px rgba(0,0,0, .75);
-   }
+.button:hover, .addtocartbutton:focus {
+  background-color: #512c0a;
+  -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+  -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+  box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
 
 /*All furnitures page styles*/
 .blockheader {
-   font-size: 30px;
-   font-family: headerfont;
-   margin-top: 20px;
-   margin-bottom: 10px;
+  font-size: 30px;
+  font-family: headerfont;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .productarticlewide {
@@ -293,7 +293,7 @@ footer {
 
 .productarticlewidethumbnail {
    width: 100px;
-   height: 100px;
+   height: 150px;
    float: left;
    margin: 20px;
 }
