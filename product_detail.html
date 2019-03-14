@@ -106,89 +106,37 @@
     </aside>
     <!-- end -->
 
-    <!-- copykan dari sini -->
-    <section id="bestsellers">
-        <header>
-            Paling laris dibeli!
-        </header>
-        <hr />
-        <section class="furniturebestsellers">
-            <!-- copy pada bagian ini -->
-            <header class="backgroundgradient">
-               Funitur
-            </header>
-            <article class="productarticle">
-                <figure>
-                    <img 
-                        class="productarticlethumbnail"
-                        src="images/furniture/row_dt001_0.jpg" 
-                    />
-                </figure>
-                <header>
-                    <span class="productarticlename">
-                        <a href="product_detail.html">
-                            Meja kayu
-                        </a>
-                    </span>
-               </header>
-               <p class="productarticleprice">Rp 2.000.000</p>
-                <div 
-                    class="button" 
-                    id="testButton"
-                >
-                   Tambah ke keranjang
-               </div>
-           </article>
-           <!-- end -->
-        </section>
-        <section class="accessoriesbestsellers">
-            <!-- copy kan dari sini --->
-           <header class="backgroundgradient">
-               Aksesoris
-           </header>
-           <article class="productarticle">
-               <figure>
-                   <img class="productarticlethumbnail"
-                    src="images/furniture/row_dt002_0.jpg" />
-               </figure>
-               <header>
-                   <span class="productarticlename">accessories 1</span>
-               </header>
-               <p class="productarticleprice">Rp 1.000.000</p>
-               <div class="button">
-                   Tambah ke keranjang
-               </div>  
-           </article>
-           <article class="productarticle">
-               <figure>
-                   <img class="productarticlethumbnail"
-                    src="images/furniture/row_dt003_0.jpg" />
-               </figure>
-               <header>
-                   <span class="productarticlename">accessories 1</span>
-               </header>
-               <p class="productarticleprice">Rp 1.000.000</p>
-               <div class="button">
-                   Tambah ke keranjang
-               </div>  
-           </article>
-           <article class="productarticle">
-               <figure>
-                   <img class="productarticlethumbnail"
-                    src="images/furniture/row_sb001_0.jpg" />
-               </figure>
-               <header>
-                   <span class="productarticlename">accessories 1</span>
-               </header>
-               <p class="productarticleprice">Rp 1.000.000</p>
-               <div class="button">
-                   Tambah ke keranjang
-               </div>  
-           </article>
-           <!-- end -->
-        </section>
+    <section class="furnituredetails">
+      <header class="blockheader">
+          <span>Meja kayu</span>
+      </header>
+      <figure class="productarticlelargefigure">
+        <img id="expandedImg" class="productarticlelargeimage" src="images/furniture/row_dt001_0.jpg" />
+        <figcaption>Meja kayu</figcaption>
+        <!-- The grid: four columns -->
+        <div class="row">
+          <div class="column">
+            <img src="images/furniture/row_dt001_0.jpg" onclick="openImg(this);">
+          </div>
+          <div class="column">
+            <img src="images/furniture/row_dt001_1.jpg" onclick="openImg(this);">
+          </div>
+          <div class="column">
+            <img src="images/furniture/row_dt001_2.jpg" onclick="openImg(this);">
+          </div>
+       </div>
+      </figure>
+      <div class="productarticlecontent">
+        <p class="productarticledescription">
+          Meja kayu berkualitas terbaik, tahan banting, tidak bisa dimakan rayap  
+        </p>
+        <p class="productarticleprice">Rp 2.000.000</p>
+        <div class="addtocartbutton button">
+          Tambah ke keranjang
+        </div>
+        <br />
+      </div>
     </section>
-    <!-- end -->
 
     <footer>
         <p>Alamat kami di <address>Kota Baru Parahyangan</address></p>
@@ -201,5 +149,5 @@
             This page was generated on <time>09:25:04.123</time>.
         </p>
     </footer>
-</body>
+    </body>
 </html>
