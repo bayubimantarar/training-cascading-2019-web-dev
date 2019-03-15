@@ -35,7 +35,7 @@ nav {
     height: 45px;
     width: 100%;
     margin-bottom: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-left: 5px;
  }
 nav ul {
@@ -139,9 +139,9 @@ nav ul li {
 }
 
 .furniturebestsellers > header {
-    background-color: #9c591e;
-    color: white;
-    padding-left: 10px;
+  background-color: #9c591e;
+  color: white;
+  padding-left: 10px;
 }
 
 .accessoriesbestsellers {
@@ -329,4 +329,49 @@ footer {
 #shoppingcart {
    float: left;
    width: 175px;
+}
+
+/*Checkout page*/
+.textlabel
+{
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
+   display: block;
+    width: 250px;
+    padding: 2px 5px;
+    float: left;
+}
+
+.textinput
+{
+    width: 300px;
+    height: 22px;
+    border: 1px solid #888888;
+}
+
+fieldset
+{
+    padding: 0px;
+    border: none;
+}
+fieldset > div
+{
+    border: 2px solid #888888;
+}
+.submitbutton {
+  cursor: pointer;
+  padding: 4px 25px;
+  background: #9c591e;
+  border: 1px solid #381f09;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+  box-shadow: 0 0 4px rgba(0,0,0, .75);
+  color: #f3f3f3;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  width: 150px;
 }
