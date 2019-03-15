@@ -133,7 +133,9 @@
                </header>
                <p class="productarticleprice">Rp 2.000.000</p>
                 <div 
-                    class="button"
+                    class="button , addtocartbutton"
+                    data-price="2.000.000"
+                    data-item="Meja kayu"
                 >
                    <i class=""></i>Tambah ke keranjang
                </div>
@@ -154,7 +156,7 @@
                    <span class="productarticlename">accessories 1</span>
                </header>
                <p class="productarticleprice">Rp 1.000.000</p>
-               <div class="button">
+               <div class="button , addtocartbutton" data-price="320.00">
                    Tambah ke keranjang
                </div>  
            </article>
@@ -167,9 +169,12 @@
                    <span class="productarticlename">accessories 1</span>
                </header>
                <p class="productarticleprice">Rp 1.000.000</p>
-               <div class="button">
-                   Tambah ke keranjang
-               </div>  
+              <div 
+                class="button , addtocartbutton" 
+                data-price="1.000.000"
+              >
+                Tambah ke keranjang
+              </div>  
            </article>
            <article class="productarticle">
                <figure>
@@ -180,7 +185,11 @@
                    <span class="productarticlename">accessories 1</span>
                </header>
                <p class="productarticleprice">Rp 1.000.000</p>
-               <div class="button">
+              <div 
+                class="button , addtocartbutton"
+                data-price="1.000.000"
+                data-item="accessories 1"
+              >
                    Tambah ke keranjang
                </div>  
            </article>
@@ -188,6 +197,15 @@
         </section>
     </section>
     <!-- end -->
+
+    <div id="shoppingcart">
+      <header class="blockheader"><span>Shopping cart</span></header>
+        <ul></ul>
+        <div class="button" id="emptyCart">
+          Empty Cart
+        </div>
+    </div>
+
 
     <footer>
         <p>Alamat kami di <address>Kota Baru Parahyangan</address></p>
@@ -200,5 +218,9 @@
             This page was generated on <time>09:25:04.123</time>.
         </p>
     </footer>
+    <script 
+      type="text/javascript" 
+      src="js/cart.js"
+    ></script>
 </body>
 </html>
