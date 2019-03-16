@@ -9,7 +9,7 @@ window.onload = function() {
    var div_total = document.createElement("div");
 
    currentCart = JSON.parse(localStorage.getItem('cart'));
-   
+
    if (!currentCart) {
        currentCart = new Array();
    }
@@ -31,18 +31,18 @@ window.onload = function() {
     }
 
     function UpdateShoppingCartUI() {
-        cartitem.innerHTML = "";
+        cartitem.innerHTML = "<p>";
 
         for (var i = 0; i < currentCart.length; i++) {
             var liElement = document.createElement('li');
-            liElement.innerHTML = 
+            liElement.innerHTML =
             currentCart[i].id + " " + new Intl.NumberFormat(['ban', 'id'], { style: 'currency', currency: 'IDR' }).format(currentCart[i].realPrice) + "";
-            cartitem.appendChild(liElement);
+              cartitem.appendChild(liElement);
             total = parseInt(temp_total) + parseInt(currentCart[i].realPrice);
         }
 
         if(!div_total){
-          // document.getElementById("total").appendChild(div_total); 
+          // document.getElementById("total").appendChild(div_total);
         }else{
             temp_total = total;
             div_total.innerHTML = '<p> ============= +</p>'+
@@ -60,6 +60,6 @@ window.onload = function() {
         temp_total = 0;
         total = 0;
         UpdateShoppingCartUI();
-      }); 
+      });
     }
 }
