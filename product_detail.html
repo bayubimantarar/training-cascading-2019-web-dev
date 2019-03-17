@@ -1,9 +1,9 @@
 <html>
     <head>
         <title>Wood Premium Furniture</title>
-        <link 
-            rel="stylesheet" 
-            href="css/style.css" 
+        <link
+            rel="stylesheet"
+            href="css/style.css"
         />
     </head>
 <body>
@@ -20,40 +20,40 @@
         <nav class="backgroundgradient">
             <ul>
                 <li>
-                    <a 
-                        class="navlink" 
+                    <a
+                        class="navlink"
                         href="index.html"
                     >
                         Halaman Utama
                     </a>
                 </li>
                 <li>
-                    <a 
-                        class="navlink" 
+                    <a
+                        class="navlink"
                         href="collection.html"
                     >
                         Koleksi
                     </a>
                 </li>
                 <li>
-                    <a 
-                        class="navlink" 
-                        href="contactus.html"
+                    <a
+                        class="navlink"
+                        href="contact.html"
                     >
                         Kontak Kami
                     </a>
                 </li>
                 <li>
-                    <a 
-                        class="navlink" 
+                    <a
+                        class="navlink"
                         href="about.html"
                     >
                         Tentang Kami
                     </a>
                 </li>
                 <li>
-                    <a 
-                        class="navlink" 
+                    <a
+                        class="navlink"
                         href="checkout.html"
                     >
                         Keranjang
@@ -112,7 +112,6 @@
       </header>
       <figure class="productarticlelargefigure">
         <img id="expandedImg" class="productarticlelargeimage" src="images/furniture/row_dt001_0.jpg" />
-        <figcaption>Meja kayu</figcaption>
         <!-- The grid: four columns -->
         <div class="row">
           <div class="column">
@@ -128,16 +127,29 @@
       </figure>
       <div class="productarticlecontent">
         <p class="productarticledescription">
-          Meja kayu berkualitas terbaik, tahan banting, tidak bisa dimakan rayap  
+          Reprehenderit dolor enim officia in pariatur pariatur laborum adipisicing incididunt enim nostrud aliqua cupidatat exercitation proident mollit duis aliquip in aute et dolore reprehenderit anim ut quis consequat irure in fugiat dolore laborum in dolore dolor sunt id ad anim cupidatat officia adipisicing occaecat fugiat aliqua labore ex do nisi cillum ea ut enim est magna ex nulla irure laboris magna anim adipisicing et ad adipisicing ut officia consequat esse officia voluptate officia consectetur nulla enim dolor laboris in sed ut sint culpa irure cupidatat in aliquip proident eiusmod deserunt magna aute officia elit aliqua ex dolore dolor do id qui ut elit officia aliqua adipisicing veniam labore in in dolore commodo nostrud sunt in ut dolor enim ea nulla ex magna enim in et ut eiusmod esse non ut voluptate officia est cillum nostrud eiusmod officia est ut quis ullamco anim proident minim ut non laboris ut exercitation laborum sed nisi laboris qui sed sunt in do pariatur incididunt id sed deserunt laborum et ex qui magna dolor fugiat aliqua nostrud commodo aute qui amet voluptate duis culpa tempor elit ut exercitation culpa labore et dolore non sit sed magna adipisicing elit commodo cillum occaecat non ex aliqua laborum laborum adipisicing esse aliqua amet dolor occaecat nulla anim incididunt elit amet laboris cupidatat.
         </p>
         <p class="productarticleprice">Rp 2.000.000</p>
-        <div class="addtocartbutton button">
+        <div
+          class="addtocartbutton button"
+          data-price="2.000.000"
+          data-real-price="2000000"
+          data-item="Meja kayu"
+        >
           Tambah ke keranjang
         </div>
         <br />
       </div>
     </section>
 
+    <div id="shoppingcart">
+      <header class="blockheader"><span>Shopping cart</span></header>
+        <ol></ol>
+        <div class="total" id="total"></div>
+        <div class="button" id="emptyCart">
+          Empty Cart
+        </div>
+    </div>
     <footer>
         <p>Alamat kami di <address>Kota Baru Parahyangan</address></p>
         <p class="textcontent">Konten ini dibuat oleh &copy;
@@ -149,9 +161,13 @@
             This page was generated on <time>09:25:04.123</time>.
         </p>
     </footer>
-    <script 
-      type="text/javascript" 
+    <script
+      type="text/javascript"
       src="js/product_detail.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/cart.js"
     ></script>
 </body>
 </html>
